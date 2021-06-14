@@ -31,7 +31,7 @@ while True:
     frame = pickle.loads(frame_data)
     cv2.imshow("RECEIVING VIDEO",frame)
     key = cv2.waitKey(1) & 0xFF
-    if key  == ord('q'):
+    if key  == 101:
         break
 client_s.close()
 
