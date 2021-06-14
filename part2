@@ -39,5 +39,5 @@ while True:
 		
             cv2.imshow('TRANSMITTING VIDEO',frame)
             key = cv2.waitKey(1) & 0xFF
-            if key ==ord('q'):
+            if key ==101:
                 client_s.close()
