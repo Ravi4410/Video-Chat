@@ -4,7 +4,7 @@ import pickle
 import struct
 
 client_s = s.socket(s.AF_INET,s.SOCK_STREAM)
-host_ip = '192.168.1.38' 
+host_ip = '192.168.56.1' 
 port = 1234
 print("Socket Created Successfully")
 
